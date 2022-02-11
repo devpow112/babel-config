@@ -15,10 +15,14 @@
     "format:md": "npm run -s lint:md -- --fix"
   },
   "exports": {
-    "./node12": "./src/node12.js",
-    "./node12.js": "./src/node12.js",
-    "./node12-config": "./src/node12.js",
-    "./node12-config.js": "./src/node12.js"
+    "./node12": "./src/node-12.js",
+    "./node12.js": "./src/node-12.js",
+    "./node12-config": "./src/node-12.js",
+    "./node12-config.js": "./src/node-12.js",
+    "./node-12": "./src/node-12.js",
+    "./node-12.js": "./src/node-12.js",
+    "./node-12-config": "./src/node-12.js",
+    "./node-12-config.js": "./src/node-12.js"
   },
   "repository": {
     "type": "git",
