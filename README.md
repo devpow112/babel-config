@@ -2,7 +2,6 @@
 
 [![License][License Badge]](LICENSE)
 [![Version][Version Badge]][Version Package]
-[![CI][CI Badge]][CI Workflow]
 [![Release][Release Badge]][Release Workflow]
 [![Vulnerabilities][Vulnerabilities Badge]][Vulnerabilities Report]
 [![Node Version][Node Version Badge]](package.json#L35)
@@ -76,8 +75,6 @@ npm run format:md
 [Version Badge]: https://img.shields.io/npm/v/@devpow112/babel-config?label=Version
 [Version Package]: https://www.npmjs.com/@devpow112/babel-config
 [Node Version Badge]: https://img.shields.io/node/v/@devpow112/babel-config
-[CI Badge]: https://github.com/devpow112/babel-config/actions/workflows/ci.yml/badge.svg?branch=main
-[CI Workflow]: https://github.com/devpow112/babel-config/actions/workflows/ci.yml?query=branch%3Amain
 [Release Badge]: https://github.com/devpow112/babel-config/actions/workflows/release.yml/badge.svg?branch=main
 [Release Workflow]: https://github.com/devpow112/babel-config/actions/workflows/release.yml?query=branch%3Amain
 [Vulnerabilities Badge]: https://img.shields.io/snyk/vulnerabilities/github/devpow112/babel-config?label=Vulnerabilities
