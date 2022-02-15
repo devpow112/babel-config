@@ -10,7 +10,7 @@ Shareable babel configuration.
 
 ## Installation
 
-```sh
+```console
 npm i -D @devpow112/babel-config
 ```
 
@@ -33,7 +33,7 @@ latest LTS version is tested against.
 
 Install dependencies via `npm`.
 
-```sh
+```console
 npm i
 ```
 
@@ -41,7 +41,7 @@ npm i
 
 Execute linters via `npm`.
 
-```sh
+```console
 # git, javascript and markdown
 npm run lint
 
@@ -59,7 +59,7 @@ npm run lint:md
 
 Execute formatters via `npm`.
 
-```sh
+```console
 # javascript and markdown
 npm run format
 
