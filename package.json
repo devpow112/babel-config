@@ -2,61 +2,63 @@
   "name": "@devpow112/babel-config",
   "version": "1.0.5",
   "description": "Shareable babel configuration",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "lint": "run-s -s lint:git lint:js lint:md",
-    "lint:js": "eslint .",
-    "lint:md": "markdownlint .",
-    "lint:git": "commitlint --from origin/main --to HEAD",
-    "format": "run-s -s format:js format:md",
-    "format:js": "npm run -s lint:js -- --fix",
-    "format:md": "npm run -s lint:md -- --fix"
-  },
-  "exports": {
-    "./node12": "./src/node-12.js",
-    "./node12.js": "./src/node-12.js",
-    "./node12-config": "./src/node-12.js",
-    "./node12-config.js": "./src/node-12.js",
-    "./node-12": "./src/node-12.js",
-    "./node-12.js": "./src/node-12.js",
-    "./node-12-config": "./src/node-12.js",
-    "./node-12-config.js": "./src/node-12.js"
+  "keywords": [
+    "babel-config"
+  ],
+  "homepage": "https://github.com/devpow112/babel-config#readme",
+  "bugs": {
+    "url": "https://github.com/devpow112/babel-config/issues"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/devpow112/babel-config.git"
   },
-  "keywords": [
-    "babel-config"
-  ],
-  "author": "Devon Powell <devon.f.powell@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devpow112/babel-config/issues"
+  "author": "Devon Powell <devon.f.powell@gmail.com>",
+  "exports": {
+    "./node-12": "./src/node-12.js",
+    "./node-12.js": "./src/node-12.js",
+    "./node-16": "./src/node-16.js",
+    "./node-16.js": "./src/node-16.js",
+    "./node-18": "./src/node-18.js",
+    "./node-18.js": "./src/node-18.js"
   },
-  "homepage": "https://github.com/devpow112/babel-config#readme",
   "files": [
     "src/**/*.js"
   ],
-  "engines": {
-    "node": ">=12.22.7",
-    "npm": ">=6.14.15"
+  "scripts": {
+    "lint": "run-s -s lint:git lint:js lint:md lint:pkg",
+    "lint:js": "eslint .",
+    "lint:md": "markdownlint .",
+    "lint:git": "commitlint --from origin/main --to HEAD",
+    "lint:pkg": "sort-package-json --check",
+    "format": "run-s -s format:js format:md format:pkg",
+    "format:js": "npm run -s lint:js -- --fix",
+    "format:md": "npm run -s lint:md -- --fix",
+    "format:pkg": "sort-package-json"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@devpow112/commitlint-config": "^1.0.4",
+    "@devpow112/eslint-config": "^1.1.5",
+    "@devpow112/semantic-release-config": "^2.1.2",
+    "eslint": "^8.39.0",
+    "markdownlint-cli": "^0.33.0",
+    "npm-run-all": "^4.1.5",
+    "semantic-release": "^21.0.1",
+    "sort-package-json": "^2.4.1"
   },
   "peerDependencies": {
     "@babel/cli": "^7",
     "@babel/preset-env": "^7",
     "babel-plugin-add-module-exports": "^1"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "@devpow112/commitlint-config": "^1.0.4",
-    "@devpow112/eslint-config": "^1.1.5",
-    "@devpow112/semantic-release-config": "^1.2.3",
-    "eslint": "^8.39.0",
-    "markdownlint-cli": "^0.33.0",
-    "npm-run-all": "^4.1.5",
-    "semantic-release": "^19.0.5"
+  "engines": {
+    "node": ">=12.22.7",
+    "npm": ">=6.14.15"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
