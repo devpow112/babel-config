@@ -42,7 +42,7 @@ npm i
 Execute linters via `npm`.
 
 ```console
-# git, javascript and markdown
+# git, javascript, markdown and package.json
 npm run lint
 
 # git only
@@ -53,6 +53,9 @@ npm run lint:js
 
 # markdown only
 npm run lint:md
+
+# package.json only
+npm run lint:pkg
 ```
 
 ### Formatting
@@ -60,7 +63,7 @@ npm run lint:md
 Execute formatters via `npm`.
 
 ```console
-# javascript and markdown
+# javascript, markdown and package.json
 npm run format
 
 # javascript only
@@ -68,6 +71,9 @@ npm run format:js
 
 # markdown only
 npm run format:md
+
+# package.json only
+npm run format:pkg
 ```
 
 <!-- links -->
