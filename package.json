@@ -38,7 +38,7 @@
     "format:pkg": "sort-package-json"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.6",
+    "@commitlint/cli": "^17.6.7",
     "@devpow112/commitlint-config": "^2.0.0",
     "@devpow112/eslint-config": "^2.0.1",
     "@devpow112/semantic-release-config": "^2.1.2",
