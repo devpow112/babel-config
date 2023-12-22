@@ -1,4 +1,5 @@
 module.exports = {
   sourceMaps: 'inline',
-  minified: true
+  minified: true,
+  plugins: ['add-module-exports']
 };
