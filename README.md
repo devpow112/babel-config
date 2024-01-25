@@ -3,7 +3,6 @@
 [![License][License Badge]](LICENSE)
 [![Version][Version Badge]][Version Package]
 [![Release][Release Badge]][Release Workflow]
-[![Vulnerabilities][Vulnerabilities Badge]][Vulnerabilities Report]
 [![Node Version][Node Version Badge]](package.json#L57)
 
 Shareable babel configuration.
@@ -83,6 +82,4 @@ npm run fix:pkg
 [Node Version Badge]: https://img.shields.io/node/v/@devpow112/babel-config
 [Release Badge]: https://github.com/devpow112/babel-config/actions/workflows/release.yml/badge.svg?branch=main
 [Release Workflow]: https://github.com/devpow112/babel-config/actions/workflows/release.yml?query=branch%3Amain
-[Vulnerabilities Badge]: https://img.shields.io/snyk/vulnerabilities/github/devpow112/babel-config?label=Vulnerabilities
-[Vulnerabilities Report]: https://snyk.io/test/github/devpow112/babel-config
 [Babel configuration]: https://babeljs.io/docs/en/config-files
