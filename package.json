@@ -1,6 +1,6 @@
 {
   "name": "@devpow112/babel-config",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Shareable babel configuration",
   "keywords": [
     "babel-config"
