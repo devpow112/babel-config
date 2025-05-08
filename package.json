@@ -42,7 +42,7 @@
     "lint:pkg": "npm run -s fix:pkg -- --check"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
+    "@commitlint/cli": "^19.8.1",
     "@devpow112/commitlint-config": "^2.0.3",
     "@devpow112/eslint-config": "^3.0.3",
     "@devpow112/semantic-release-config": "^3.0.0",
