@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@babel/cli": "^7",
-    "@babel/preset-env": "^7",
+    "@babel/preset-env": "^8",
     "babel-plugin-add-module-exports": "^1"
   },
   "devDependencies": {
