@@ -30,6 +30,11 @@ updates:
       prefix: chore
       include: scope
     groups:
+      babel:
+        dependency-type: development
+        patterns:
+          - babel-*
+          - '@babel/*'
       eslint:
         dependency-type: development
         patterns:
