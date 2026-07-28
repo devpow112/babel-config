@@ -42,7 +42,7 @@
     "lint:pkg": "npm run -s fix:pkg -- --check"
   },
   "dependencies": {
-    "@babel/cli": "^7",
+    "@babel/cli": "^8",
     "@babel/preset-env": "^7",
     "babel-plugin-add-module-exports": "^1"
   },
